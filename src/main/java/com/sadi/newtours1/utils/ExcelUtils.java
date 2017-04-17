@@ -58,7 +58,7 @@ public class ExcelUtils {
 	}
 
 	private static Sheet getSheet(int sheetNo) throws IOException{
-		inputStream = new FileInputStream(new File("D://Testing/Java Codes/newtours1/newtours.xlsx"));
+		inputStream = new FileInputStream(new File("D://Testing/Java Codes/newtours1/newtours1.xlsx"));
 		workbook = new XSSFWorkbook(inputStream);
 		Sheet sheet = (Sheet) workbook.getSheetAt(sheetNo);
 		return sheet;

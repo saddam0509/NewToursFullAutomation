@@ -1,44 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="26128" started-at="2017-04-17T15:14:21Z" finished-at="2017-04-17T15:14:47Z">
+  <suite name="Sample test Suite" duration-ms="43370" started-at="2017-04-17T18:29:35Z" finished-at="2017-04-17T18:30:18Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="26128" started-at="2017-04-17T15:14:21Z" finished-at="2017-04-17T15:14:47Z">
+    <test name="Sample test" duration-ms="43370" started-at="2017-04-17T18:29:35Z" finished-at="2017-04-17T18:30:18Z">
       <class name="com.sadi.newtours1.test.LoginTest">
-        <test-method status="PASS" signature="checkTitle()[pri:0, instance:com.sadi.newtours1.test.LoginTest@39aeed2f]" name="checkTitle" duration-ms="26052" started-at="2017-04-17T21:14:21Z" finished-at="2017-04-17T21:14:47Z">
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:com.sadi.newtours1.test.LoginTest@39aeed2f]" name="checkTitle" duration-ms="35411" started-at="2017-04-18T00:29:35Z" finished-at="2017-04-18T00:30:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
-        <test-method status="FAIL" signature="checkLogin(java.util.List)[pri:0, instance:com.sadi.newtours1.test.LoginTest@39aeed2f]" name="checkLogin" duration-ms="0" started-at="2017-04-17T21:14:47Z" data-provider="loginData" finished-at="2017-04-17T21:14:47Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="checkLogin(java.util.List)[pri:0, instance:com.sadi.newtours1.test.LoginTest@39aeed2f]" name="checkLogin" duration-ms="5224" started-at="2017-04-18T00:30:13Z" data-provider="loginData" finished-at="2017-04-18T00:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Login [userName=demo, password=demo]]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogin -->
