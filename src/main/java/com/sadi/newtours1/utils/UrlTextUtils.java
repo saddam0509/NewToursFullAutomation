@@ -6,5 +6,5 @@ public class UrlTextUtils {
 	public static final String FIND_FLIGHT_PAGE_TITLE = "Find a Flight: Mercury Tours: ";
 	public static final String SELECT_FIGHT_PAGE_TITLE = "Select a Flight: Mercury Tours";
 	public static final String BOOK_FLIGHT_PAGE_TITLE = "Book a Flight: Mercury Tours";
-	public static final String FLIGHT_CONFARMaTION_PAGE_TITLE = "Flight Confirmation: Mercury Tours";
+	public static final String FLIGHT_CONFARMATION_PAGE_TITLE = "Flight Confirmation: Mercury Tours";
 }

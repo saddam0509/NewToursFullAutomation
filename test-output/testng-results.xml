@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="43370" started-at="2017-04-17T18:29:35Z" finished-at="2017-04-17T18:30:18Z">
+  <suite name="Sample test Suite" duration-ms="76364" started-at="2017-04-17T19:13:34Z" finished-at="2017-04-17T19:14:50Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="43370" started-at="2017-04-17T18:29:35Z" finished-at="2017-04-17T18:30:18Z">
+    <test name="Sample test" duration-ms="76364" started-at="2017-04-17T19:13:34Z" finished-at="2017-04-17T19:14:50Z">
       <class name="com.sadi.newtours1.test.LoginTest">
-        <test-method status="PASS" signature="checkTitle()[pri:0, instance:com.sadi.newtours1.test.LoginTest@39aeed2f]" name="checkTitle" duration-ms="35411" started-at="2017-04-18T00:29:35Z" finished-at="2017-04-18T00:30:10Z">
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:com.sadi.newtours1.test.LoginTest@39aeed2f]" name="checkTitle" duration-ms="62657" started-at="2017-04-18T01:13:34Z" finished-at="2017-04-18T01:14:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
-        <test-method status="PASS" signature="checkLogin(java.util.List)[pri:0, instance:com.sadi.newtours1.test.LoginTest@39aeed2f]" name="checkLogin" duration-ms="5224" started-at="2017-04-18T00:30:13Z" data-provider="loginData" finished-at="2017-04-18T00:30:18Z">
+        <test-method status="PASS" signature="checkLogin(java.util.List)[pri:0, instance:com.sadi.newtours1.test.LoginTest@39aeed2f]" name="checkLogin" duration-ms="7661" started-at="2017-04-18T01:14:42Z" data-provider="loginData" finished-at="2017-04-18T01:14:50Z">
           <params>
             <param index="0">
               <value>
