@@ -42,8 +42,7 @@ public class ExcelUtils {
 					break;
 				default:
 					break;
-				}               
-                 
+				}                
             }
             logins.add(login);
         }
